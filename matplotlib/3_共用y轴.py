@@ -46,6 +46,7 @@ def draw(data, pathout):
 
     ax_1 = fig.add_subplot(gs[0, 1], sharey=ax_0)
     plt.setp(ax_1.get_yticklabels(), visible=False)
+    # http://www.dovov.com/gridspecpython.html
 
     x_1 = df[columns[0]]
     y_1 = df[columns[1]]
